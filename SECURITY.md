@@ -1,8 +1,9 @@
 # Security
 
-This repository only holds the numbers published by
-[open-stats](https://github.com/tkjaer/open-stats): weekly JSON files written
-by its export. It has no code, dependencies or workflows of its own.
+This repository holds data published by
+[open-stats](https://github.com/tkjaer/open-stats): weekly visit-count JSON files
+and GoatCounter settings snapshots written by its export. It has no code,
+dependencies or workflows of its own.
 
 ## Reporting a problem
 
