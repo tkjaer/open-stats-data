@@ -1,0 +1,17 @@
+{
+  "format": "https://github.com/tkjaer/open-stats/blob/main/docs/data-format.md",
+  "version": 2,
+  "project": "how-the-internet-works",
+  "goatcounter": {
+    "version": "v2.7.0",
+    "site": "how-the-internet-works.localhost",
+    "collect": [
+      "country"
+    ],
+    "collect_bitmask": 16,
+    "data_retention_days": 31,
+    "public": "private",
+    "allow_counter": false,
+    "allow_embed": ""
+  }
+}

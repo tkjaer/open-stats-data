@@ -1,0 +1,105 @@
+{
+  "format": "https://github.com/tkjaer/open-stats/blob/main/docs/data-format.md",
+  "version": 2,
+  "project": "how-the-internet-works",
+  "period": {
+    "kind": "iso-week",
+    "id": "2026-W41",
+    "first_day": "2026-10-05",
+    "last_day": "2026-10-11",
+    "timezone": "UTC"
+  },
+  "generated_at": "2026-10-12T03:03:43Z",
+  "source": {
+    "collector": "goatcounter",
+    "goatcounter_version": "v2.7.0",
+    "collect": [
+      "country"
+    ],
+    "data_retention_days": 31
+  },
+  "tables": {
+    "page_loads": {
+      "granularity": "day",
+      "rows": [
+        {
+          "day": "2026-10-05",
+          "count": 0
+        },
+        {
+          "day": "2026-10-06",
+          "count": 10
+        },
+        {
+          "day": "2026-10-07",
+          "count": 72
+        },
+        {
+          "day": "2026-10-08",
+          "count": 31
+        },
+        {
+          "day": "2026-10-09",
+          "count": 16
+        },
+        {
+          "day": "2026-10-10",
+          "count": 13
+        },
+        {
+          "day": "2026-10-11",
+          "count": 5
+        }
+      ]
+    },
+    "language": {
+      "granularity": "day",
+      "min_day_total": 20,
+      "rows": [
+        {
+          "day": "2026-10-07",
+          "counts": {
+            "da": 15,
+            "de": 11,
+            "en": 46,
+            "other": 0
+          }
+        },
+        {
+          "day": "2026-10-08",
+          "counts": {
+            "da": 10,
+            "de": 8,
+            "en": 13,
+            "other": 0
+          }
+        }
+      ]
+    },
+    "country": {
+      "granularity": "day",
+      "min_day_total": 20,
+      "min_count": 5,
+      "rows": [
+        {
+          "day": "2026-10-07",
+          "counts": {
+            "AU": 14,
+            "DE": 13,
+            "DK": 21,
+            "NL": 7,
+            "other": 17
+          }
+        },
+        {
+          "day": "2026-10-08",
+          "counts": {
+            "DE": 8,
+            "IE": 5,
+            "other": 18
+          }
+        }
+      ]
+    }
+  }
+}
