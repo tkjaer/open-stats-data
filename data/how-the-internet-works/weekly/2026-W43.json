@@ -1,0 +1,128 @@
+{
+  "format": "https://github.com/tkjaer/open-stats/blob/main/docs/data-format.md",
+  "version": 2,
+  "project": "how-the-internet-works",
+  "period": {
+    "kind": "iso-week",
+    "id": "2026-W43",
+    "first_day": "2026-10-19",
+    "last_day": "2026-10-25",
+    "timezone": "UTC"
+  },
+  "generated_at": "2026-10-26T03:03:54Z",
+  "source": {
+    "collector": "goatcounter",
+    "goatcounter_version": "v2.7.0",
+    "collect": [
+      "country"
+    ],
+    "data_retention_days": 31
+  },
+  "tables": {
+    "page_loads": {
+      "granularity": "day",
+      "rows": [
+        {
+          "day": "2026-10-19",
+          "count": 12
+        },
+        {
+          "day": "2026-10-20",
+          "count": 7
+        },
+        {
+          "day": "2026-10-21",
+          "count": 11
+        },
+        {
+          "day": "2026-10-22",
+          "count": 4
+        },
+        {
+          "day": "2026-10-23",
+          "count": 24
+        },
+        {
+          "day": "2026-10-24",
+          "count": 37
+        },
+        {
+          "day": "2026-10-25",
+          "count": 249
+        }
+      ]
+    },
+    "language": {
+      "granularity": "day",
+      "min_day_total": 20,
+      "rows": [
+        {
+          "day": "2026-10-23",
+          "counts": {
+            "da": 1,
+            "de": 2,
+            "en": 21,
+            "other": 0
+          }
+        },
+        {
+          "day": "2026-10-24",
+          "counts": {
+            "da": 0,
+            "de": 8,
+            "en": 29,
+            "other": 0
+          }
+        },
+        {
+          "day": "2026-10-25",
+          "counts": {
+            "da": 9,
+            "de": 28,
+            "en": 212,
+            "other": 0
+          }
+        }
+      ]
+    },
+    "country": {
+      "granularity": "day",
+      "min_day_total": 20,
+      "min_count": 5,
+      "rows": [
+        {
+          "day": "2026-10-23",
+          "counts": {
+            "DE": 6,
+            "DK": 6,
+            "other": 12
+          }
+        },
+        {
+          "day": "2026-10-24",
+          "counts": {
+            "DE": 11,
+            "other": 26
+          }
+        },
+        {
+          "day": "2026-10-25",
+          "counts": {
+            "AU": 16,
+            "CH": 12,
+            "DE": 47,
+            "DK": 10,
+            "FR": 7,
+            "GB": 26,
+            "ID": 7,
+            "IT": 6,
+            "NL": 35,
+            "NZ": 5,
+            "US": 38,
+            "other": 40
+          }
+        }
+      ]
+    }
+  }
+}
