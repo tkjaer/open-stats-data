@@ -1,0 +1,240 @@
+{
+  "format": "https://github.com/tkjaer/open-stats/blob/main/docs/data-format.md",
+  "version": 2,
+  "project": "how-the-internet-works",
+  "period": {
+    "kind": "iso-week",
+    "id": "2026-W44",
+    "first_day": "2026-10-26",
+    "last_day": "2026-11-01",
+    "timezone": "UTC"
+  },
+  "generated_at": "2026-11-02T03:06:24Z",
+  "source": {
+    "collector": "goatcounter",
+    "goatcounter_version": "v2.7.0",
+    "collect": [
+      "country"
+    ],
+    "data_retention_days": 31
+  },
+  "tables": {
+    "page_loads": {
+      "granularity": "day",
+      "rows": [
+        {
+          "day": "2026-10-26",
+          "count": 490
+        },
+        {
+          "day": "2026-10-27",
+          "count": 320
+        },
+        {
+          "day": "2026-10-28",
+          "count": 226
+        },
+        {
+          "day": "2026-10-29",
+          "count": 191
+        },
+        {
+          "day": "2026-10-30",
+          "count": 128
+        },
+        {
+          "day": "2026-10-31",
+          "count": 40
+        },
+        {
+          "day": "2026-11-01",
+          "count": 30
+        }
+      ]
+    },
+    "language": {
+      "granularity": "day",
+      "min_day_total": 20,
+      "rows": [
+        {
+          "day": "2026-10-26",
+          "counts": {
+            "da": 0,
+            "de": 35,
+            "en": 455,
+            "other": 0
+          }
+        },
+        {
+          "day": "2026-10-27",
+          "counts": {
+            "da": 1,
+            "de": 20,
+            "en": 299,
+            "other": 0
+          }
+        },
+        {
+          "day": "2026-10-28",
+          "counts": {
+            "da": 0,
+            "de": 16,
+            "en": 210,
+            "other": 0
+          }
+        },
+        {
+          "day": "2026-10-29",
+          "counts": {
+            "da": 0,
+            "de": 9,
+            "en": 182,
+            "other": 0
+          }
+        },
+        {
+          "day": "2026-10-30",
+          "counts": {
+            "da": 2,
+            "de": 4,
+            "en": 122,
+            "other": 0
+          }
+        },
+        {
+          "day": "2026-10-31",
+          "counts": {
+            "da": 3,
+            "de": 2,
+            "en": 35,
+            "other": 0
+          }
+        },
+        {
+          "day": "2026-11-01",
+          "counts": {
+            "da": 0,
+            "de": 3,
+            "en": 27,
+            "other": 0
+          }
+        }
+      ]
+    },
+    "country": {
+      "granularity": "day",
+      "min_day_total": 20,
+      "min_count": 5,
+      "rows": [
+        {
+          "day": "2026-10-26",
+          "counts": {
+            "AU": 31,
+            "BR": 22,
+            "CA": 15,
+            "CH": 18,
+            "DE": 65,
+            "FR": 38,
+            "GB": 22,
+            "IE": 16,
+            "IT": 14,
+            "NL": 70,
+            "NZ": 6,
+            "SE": 13,
+            "TH": 7,
+            "US": 96,
+            "other": 57
+          }
+        },
+        {
+          "day": "2026-10-27",
+          "counts": {
+            "AU": 38,
+            "BR": 15,
+            "CA": 19,
+            "CH": 8,
+            "DE": 26,
+            "FR": 36,
+            "GB": 16,
+            "ID": 13,
+            "IE": 8,
+            "IT": 9,
+            "NL": 21,
+            "US": 44,
+            "ZA": 10,
+            "other": 57
+          }
+        },
+        {
+          "day": "2026-10-28",
+          "counts": {
+            "AU": 22,
+            "CA": 7,
+            "CH": 9,
+            "DE": 23,
+            "FR": 24,
+            "GB": 12,
+            "IE": 9,
+            "IN": 5,
+            "IT": 7,
+            "NL": 15,
+            "RU": 6,
+            "US": 29,
+            "ZA": 5,
+            "other": 53
+          }
+        },
+        {
+          "day": "2026-10-29",
+          "counts": {
+            "AE": 10,
+            "AU": 13,
+            "BR": 13,
+            "CA": 7,
+            "DE": 16,
+            "FR": 19,
+            "GB": 5,
+            "HU": 18,
+            "IE": 7,
+            "JP": 7,
+            "NL": 12,
+            "RU": 5,
+            "SE": 6,
+            "US": 21,
+            "other": 32
+          }
+        },
+        {
+          "day": "2026-10-30",
+          "counts": {
+            "AU": 8,
+            "BR": 8,
+            "CH": 7,
+            "DE": 5,
+            "FR": 9,
+            "HU": 19,
+            "IE": 6,
+            "NL": 10,
+            "US": 16,
+            "other": 40
+          }
+        },
+        {
+          "day": "2026-10-31",
+          "counts": {
+            "DE": 5,
+            "HU": 10,
+            "ID": 7,
+            "other": 18
+          }
+        },
+        {
+          "day": "2026-11-01",
+          "counts": {
+            "other": 30
+          }
+        }
+      ]
+    }
+  }
+}
