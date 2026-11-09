@@ -1,0 +1,187 @@
+{
+  "format": "https://github.com/tkjaer/open-stats/blob/main/docs/data-format.md",
+  "version": 2,
+  "project": "how-the-internet-works",
+  "period": {
+    "kind": "iso-week",
+    "id": "2026-W45",
+    "first_day": "2026-11-02",
+    "last_day": "2026-11-08",
+    "timezone": "UTC"
+  },
+  "generated_at": "2026-11-09T03:04:46Z",
+  "source": {
+    "collector": "goatcounter",
+    "goatcounter_version": "v2.7.0",
+    "collect": [
+      "country"
+    ],
+    "data_retention_days": 31
+  },
+  "tables": {
+    "page_loads": {
+      "granularity": "day",
+      "rows": [
+        {
+          "day": "2026-11-02",
+          "count": 69
+        },
+        {
+          "day": "2026-11-03",
+          "count": 74
+        },
+        {
+          "day": "2026-11-04",
+          "count": 50
+        },
+        {
+          "day": "2026-11-05",
+          "count": 56
+        },
+        {
+          "day": "2026-11-06",
+          "count": 66
+        },
+        {
+          "day": "2026-11-07",
+          "count": 38
+        },
+        {
+          "day": "2026-11-08",
+          "count": 9
+        }
+      ]
+    },
+    "language": {
+      "granularity": "day",
+      "min_day_total": 20,
+      "rows": [
+        {
+          "day": "2026-11-02",
+          "counts": {
+            "da": 1,
+            "de": 9,
+            "en": 59,
+            "other": 0
+          }
+        },
+        {
+          "day": "2026-11-03",
+          "counts": {
+            "da": 0,
+            "de": 8,
+            "en": 66,
+            "other": 0
+          }
+        },
+        {
+          "day": "2026-11-04",
+          "counts": {
+            "da": 0,
+            "de": 6,
+            "en": 44,
+            "other": 0
+          }
+        },
+        {
+          "day": "2026-11-05",
+          "counts": {
+            "da": 0,
+            "de": 17,
+            "en": 39,
+            "other": 0
+          }
+        },
+        {
+          "day": "2026-11-06",
+          "counts": {
+            "da": 0,
+            "de": 3,
+            "en": 63,
+            "other": 0
+          }
+        },
+        {
+          "day": "2026-11-07",
+          "counts": {
+            "da": 0,
+            "de": 4,
+            "en": 34,
+            "other": 0
+          }
+        }
+      ]
+    },
+    "country": {
+      "granularity": "day",
+      "min_day_total": 20,
+      "min_count": 5,
+      "rows": [
+        {
+          "day": "2026-11-02",
+          "counts": {
+            "DE": 6,
+            "NL": 5,
+            "PL": 12,
+            "US": 10,
+            "other": 36
+          }
+        },
+        {
+          "day": "2026-11-03",
+          "counts": {
+            "BR": 9,
+            "DE": 6,
+            "FR": 7,
+            "HU": 6,
+            "ID": 6,
+            "PL": 14,
+            "other": 26
+          }
+        },
+        {
+          "day": "2026-11-04",
+          "counts": {
+            "DE": 6,
+            "PL": 9,
+            "RU": 5,
+            "US": 6,
+            "other": 24
+          }
+        },
+        {
+          "day": "2026-11-05",
+          "counts": {
+            "DE": 18,
+            "FR": 6,
+            "PL": 13,
+            "other": 19
+          }
+        },
+        {
+          "day": "2026-11-06",
+          "counts": {
+            "DE": 5,
+            "FR": 10,
+            "GB": 5,
+            "NL": 6,
+            "NO": 8,
+            "PL": 6,
+            "SE": 11,
+            "other": 15
+          }
+        },
+        {
+          "day": "2026-11-07",
+          "counts": {
+            "BE": 5,
+            "DE": 5,
+            "RU": 6,
+            "US": 9,
+            "other": 13
+          }
+        }
+      ]
+    }
+  }
+}
